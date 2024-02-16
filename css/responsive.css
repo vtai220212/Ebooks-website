@@ -1,0 +1,84 @@
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .nav__bars-btn {
+        display: block;
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .navbar__logo a {
+        font-size: 40px;
+    }
+
+    .nav__item i {
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .nav__bars-btn i {
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .navbar__container .navbar__search {
+        order: 5;
+    }
+}
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .navbar__logo a {
+        font-size: 30px;
+        margin: auto;
+    }
+
+    .nav__bars-btn i {
+        font-size: 25px;
+    }
+
+    .nav__item i {
+        font-size: 25px;
+    }
+
+    .home__product__action .buy__now__product,
+    .home__product__action .add__cart__product {
+        display: none;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img__pro a img {
+        max-width: 150px;
+    }
+
+        .home__tablist {
+            overflow-x: auto;
+            /* Thiết lập thanh cuộn ngang khi nội dung vượt quá kích thước của phần tử */
+            /* Ngăn chặn việc xuống dòng cho các phần tử con */
+        }
+    
+        .home__tablist__item {
+            display: inline-block;
+            /* Hiển thị các phần tử liền kề nhau trên cùng một hàng */
+            margin-right: 10px;
+            /* Khoảng cách giữa các phần tử */
+        }
+        .container__cus {
+            justify-content: unset;
+        }
+
+
+
+}
