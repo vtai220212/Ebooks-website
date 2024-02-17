@@ -14,65 +14,122 @@
 </head>
 
 <body>
-  <div class="header__content">
-    <div class="navbar__sale hide-on-mobile">
-      <div class="container grid wide">
-        <div class="row">
-          <div class="l-7 hide-on-tablet">
-            <span class="topbar__sale__off">Take an additional 50% off sale items.</span>
-          </div>
-          <div class="l-5 hide-on-tablet">
-            <div class="topbar__info">
-              <a href="reg.html" class="dangky">Đăng ký</a> |
-              <a href="login.html" class="dangnhap">Đăng nhập</a>
+  <div class="app">
+
+
+    <div class="header__content">
+      <div class="navbar__sale hide-on-mobile">
+        <div class="container grid wide">
+          <div class="row">
+            <div class="l-7 hide-on-tablet">
+              <span class="topbar__sale__off">Take an additional 50% off sale items.</span>
+            </div>
+            <div class="l-5 hide-on-tablet">
+              <div class="topbar__info">
+                <a href="reg.html" class="dangky">Đăng ký</a> |
+                <a href="login.html" class="dangnhap">Đăng nhập</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="navbar">
-      <div class="navbar__container grid wide">
-        <div class="row">
-          <label class="nav__bars-btn m-3 l-0 c-3" for="nav__mobile">
-            <i class="fa-solid fa-bars"></i>
-          </label>
-          <div class="navbar__logo l-3 m-6 c-6">
-            <img src="./images/logo.png" alt="" class="logo" />
-          </div>
-          <div class="navbar__search l-6 m-12 hide-on-mobile">
-            <form class="search__form" action="">
-              <div class="input-group m-12">
-                <input class="search__text" type="search" placeholder="Tìm kiếm..." />
-                <button type="submit" class="search__btn">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
+      <div class="navbar">
+        <div class="navbar__container grid wide">
+          <div class="row">
+            <label class="nav__bars-btn m-3 l-0 c-3" for="nav__mobile">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+            <div class="navbar__logo l-3 m-6 c-6">
+              <img src="./images/logo.png" alt="" class="logo" />
+            </div>
+            <div class="navbar__search l-6 m-12 hide-on-mobile">
+              <form class="search__form" action="">
+                <div class="input-group m-12">
+                  <input class="search__text" type="search" placeholder="Tìm kiếm..." />
+                  <button type="submit" class="search__btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="orther__navbar l-2 m-3 c-3">
+              <div class="nav__item">
+                <a href="" class="">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </a>
               </div>
-            </form>
-          </div>
-          <div class="orther__navbar l-2 m-3 c-3">
-            <div class="nav__item">
-              <a href="" class="">
-                <i class="fa-solid fa-cart-shopping"></i>
-              </a>
+            </div>
+            <input type="checkbox" hidden class="nav__input" id="nav__mobile" />
+            <label class="nav__overlay" for="nav__mobile"></label>
+
+            <!-- nav moblie -->
+
+            <div class="navbar__mobile__main">
+              <label class="nav-mobile-close" for="nav__mobile">
+                <i class="fa-solid fa-xmark"></i>
+              </label>
+              <ul class="nav__mobile__list__item">
+                <li class="nav__mobile__menu-item">
+                  <a href="index.html">
+                    <span>TRANG CHỦ</span>
+                  </a>
+                </li>
+                <li class="nav__mobile__menu-item dropdown">
+                  <a href="shop.html">
+                    <span>SẢN PHẨM</span>
+                  </a>
+                  <ul class="dropdown__menu">
+                    <li>
+                      <a href="shop.html">Trinh Thám - Kinh Dị</a>
+                    </li>
+                    <li>
+                      <a href="shop.html">Văn Học Hiện Đại</a>
+                    </li>
+                    <li>
+                      <a href="shop.html">Fantasy</a>
+                    </li>
+                    <li>
+                      <a href="shop.html">Light Novel</a>
+                    </li>
+                    <li>
+                      <a href="shop.html">Boxset</a>
+                    </li>
+                    <li>
+                      <a href="shop.html">Manga - Comic</a>
+                    </li>
+                    <li>
+                      <a href="shop.html">Combo Sách</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav__mobile__menu-item">
+                  <a href="blog.html">
+                    <span> TIN TỨC </span>
+                  </a>
+                </li>
+                <li class="nav__mobile__menu-item">
+                  <a href="about.html"> <span>VỀ EBOOKS </span></a>
+                </li>
+                <li class="nav__mobile__menu-item">
+                  <a href="contact.html"><span>LIÊN HỆ</span></a>
+                </li>
+              </ul>
             </div>
           </div>
-          <input type="checkbox" hidden class="nav__input" id="nav__mobile" />
-          <label class="nav__overlay" for="nav__mobile"></label>
+        </div>
+      </div>
 
-          <!-- nav moblie -->
-
-          <div class="navbar__mobile__main">
-            <label class="nav-mobile-close" for="nav__mobile">
-              <i class="fa-solid fa-xmark"></i>
-            </label>
-            <ul class="nav__mobile__list__item">
-              <li class="nav__mobile__menu-item">
+      <div class="home__menu hide-on-mobile-tablet hide-on-mobile">
+        <div class="container">
+          <div class="navbar__main">
+            <ul class="nav__list__item">
+              <li class="nav__menu-item">
                 <a href="index.html">
                   <span>TRANG CHỦ</span>
                 </a>
               </li>
-              <li class="nav__mobile__menu-item dropdown">
+              <li class="nav__menu-item dropdown">
                 <a href="shop.html">
                   <span>SẢN PHẨM</span>
                 </a>
@@ -100,150 +157,105 @@
                   </li>
                 </ul>
               </li>
-              <li class="nav__mobile__menu-item">
+              <li class="nav__menu-item">
                 <a href="blog.html">
                   <span> TIN TỨC </span>
                 </a>
               </li>
-              <li class="nav__mobile__menu-item">
+              <li class="nav__menu-item">
                 <a href="about.html"> <span>VỀ EBOOKS </span></a>
               </li>
-              <li class="nav__mobile__menu-item">
+              <li class="nav__menu-item">
                 <a href="contact.html"><span>LIÊN HỆ</span></a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="home__menu hide-on-mobile-tablet hide-on-mobile">
-      <div class="container">
-        <div class="navbar__main">
-          <ul class="nav__list__item">
-            <li class="nav__menu-item">
-              <a href="index.html">
-                <span>TRANG CHỦ</span>
-              </a>
-            </li>
-            <li class="nav__menu-item dropdown">
-              <a href="shop.html">
-                <span>SẢN PHẨM</span>
-              </a>
-              <ul class="dropdown__menu">
-                <li>
-                  <a href="shop.html">Trinh Thám - Kinh Dị</a>
-                </li>
-                <li>
-                  <a href="shop.html">Văn Học Hiện Đại</a>
-                </li>
-                <li>
-                  <a href="shop.html">Fantasy</a>
-                </li>
-                <li>
-                  <a href="shop.html">Light Novel</a>
-                </li>
-                <li>
-                  <a href="shop.html">Boxset</a>
-                </li>
-                <li>
-                  <a href="shop.html">Manga - Comic</a>
-                </li>
-                <li>
-                  <a href="shop.html">Combo Sách</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav__menu-item">
-              <a href="blog.html">
-                <span> TIN TỨC </span>
-              </a>
-            </li>
-            <li class="nav__menu-item">
-              <a href="about.html"> <span>VỀ EBOOKS </span></a>
-            </li>
-            <li class="nav__menu-item">
-              <a href="contact.html"><span>LIÊN HỆ</span></a>
-            </li>
-          </ul>
+      <div id="slide">
+        <div class="aspect-ratio-169">
+          <img src="./images/slideshow_1.png" alt="" />
+          <img src="./images/slideshow_2.png" alt="" />
+          <img src="https://theme.hstatic.net/200000343865/1001052087/14/ms_banner_img1.jpg?v=587" alt="" />
         </div>
       </div>
     </div>
 
-    <div id="slide">
-      <div class="aspect-ratio-169">
-        <img src="./images/slideshow_1.png" alt="" />
-        <img src="./images/slideshow_2.png" alt="" />
-        <img src="https://theme.hstatic.net/200000343865/1001052087/14/ms_banner_img1.jpg?v=587" alt="" />
-      </div>
-    </div>
-  </div>
-
-  <div class="wrapper__content">
-    <div class="home__policy hide-on-mobile">
-      <div class="container grid wide">
-        <div class="home__policy__list row">
-          <div class="home__policy__item m-6 c-6 l-3">
-            <div class="item__policy">
-              <div class="icon">
-                <img src="./images/icon1.png" alt="" />
-              </div>
-              <div class="info">
-                ƯU ĐÃI <br />
-                VẬN CHUYỂN
+    <div class="wrapper__content">
+      <div class="home__policy hide-on-mobile">
+        <div class="container grid wide">
+          <div class="home__policy__list row">
+            <div class="home__policy__item m-6 c-6 l-3">
+              <div class="item__policy">
+                <div class="icon">
+                  <img src="./images/icon1.png" alt="" />
+                </div>
+                <div class="info">
+                  ƯU ĐÃI <br />
+                  VẬN CHUYỂN
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="home__policy__item m-6 c-6 l-3">
-            <div class="item__policy">
-              <div class="icon">
-                <img src="./images/icon2.png" alt="THỂ LOẠI SÁCH <br> PHONG PHÚ" />
-              </div>
-              <div class="info">
-                THỂ LOẠI SÁCH <br />
-                PHONG PHÚ
+            <div class="home__policy__item m-6 c-6 l-3">
+              <div class="item__policy">
+                <div class="icon">
+                  <img src="./images/icon2.png" alt="THỂ LOẠI SÁCH <br> PHONG PHÚ" />
+                </div>
+                <div class="info">
+                  THỂ LOẠI SÁCH <br />
+                  PHONG PHÚ
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="home__policy__item m-6 c-6 l-3">
-            <div class="item__policy">
-              <div class="icon">
-                <img src="./images/icon3.png" alt="KHUYẾN MẠI HẤP DẪN" />
-              </div>
-              <div class="info">
-                KHUYẾN MẠI <br />
-                HẤP DẪN
+            <div class="home__policy__item m-6 c-6 l-3">
+              <div class="item__policy">
+                <div class="icon">
+                  <img src="./images/icon3.png" alt="KHUYẾN MẠI HẤP DẪN" />
+                </div>
+                <div class="info">
+                  KHUYẾN MẠI <br />
+                  HẤP DẪN
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="home__policy__item m-6 c-6 l-3">
-            <div class="item__policy">
-              <div class="icon">
-                <img src="./images/icon4.png" alt="" />
-              </div>
-              <div class="info">
-                HOTLINE <br />
-                0852 698 408 <br />
-                0386 876 573
+            <div class="home__policy__item m-6 c-6 l-3">
+              <div class="item__policy">
+                <div class="icon">
+                  <img src="./images/icon4.png" alt="" />
+                </div>
+                <div class="info">
+                  HOTLINE <br />
+                  0852 698 408 <br />
+                  0386 876 573
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div id="home__newtab">
-      <div class="container grid wide">
-        <div class="home__tablist">
-          <div class="container grid wide container__cus">
-            <div class="home__tablist__item active">NEWS</div>
-            <div class="home__tablist__item">BEST SELLER</div>
-            <div class="home__tablist__item">HOT DEAL</div>
-            <div class="home__tablist__item">FLASH SALE</div>
-            <div class="line"></div>
+      <div class="home__newtab">
+        <div class="container grid wide">
+          <div class="home__tablist">
+            <ul class="hnt-tab">
+              <li class="home__tablist__item active">
+                <a>NEWS</a>
+              </li>
+              <li class="home__tablist__item">
+                <a>BEST SELLER</a>
+              </li>
+              <li class="home__tablist__item">
+                <a> HOT DEAL</a>
+              </li>
+              <li class="home__tablist__item">
+                <a>FLASH SALE</a>
+              </li>
+            </ul>
+            <div class="line hide-on-mobile"></div>
           </div>
         </div>
         <div class="home__product">
@@ -789,136 +801,15 @@
     <div class="button__more">
       <a href="" class="btn__mores">XEM THÊM</a>
     </div>
-    <!-- <div class="home__page__blog">
+    <div class="home__page__blog">
       <div class="container">
         <div class="home__page__title">
           <span>BÀI VIẾT MỚI</span>
         </div>
 
-        <div class="home__page__blog__content swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="home__page__blog__item swiper-slide">
-              <div class="home__page__blog__img" style="
-                        background-image: url(https://file.hstatic.net/200000287623/file/4_4eb9ececfd554564ab6641e187ee3acd_grande.png);
-                      "></div>
-              <div class="home__page__blog__detail">
-                <p class="home__blog__name">
-                  <a href="">
-                    NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023 CỦA
-                    IPM
-                  </a>
-                </p>
-                <div class="home__blog__desc">
-                  Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
-                  của nguyên tác anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
-                  nhưng phiên bản manga đã có những thêm thắt và biến đổi của
-                  riêng mình, đồng thời gây ra một cú nổ thương mại. Được ra mắt
-                  lần đầu vào năm 1994, số lượng tiêu thụ của manga Neon Genesis
-                  Evangelion thời điểm đó đã lên tới hơn chục triệu bản và liên
-                  tiếp gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng.
-                </div>
-              </div>
-            </div>
 
-            <div class="home__page__blog__item swiper-slide">
-              <div class="home__page__blog__img" style="
-                        background-image: url(https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-9/141288529_3471432366312567_8484905240180436254_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7f8c78&_nc_eui2=AeGJEgS-fc7TZuOrU75XYinToDrPW3TQuq2gOs9bdNC6rQl844QtkIIpifY8mHqWktIQyFgRVXybXGEL4h63dn47&_nc_ohc=GgW5eIAupokAX-mumsw&_nc_ht=scontent.fsgn5-6.fna&oh=00_AfDYMULl6ATS8Vzie4pXyM3p5ZkRZgfwC--jSJCWON6JvA&oe=65CE0BD0);
-                      "></div>
-              <div class="home__page__blog__detail">
-                <p class="home__blog__name">
-                  <a href="">
-                    NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023 CỦA
-                    IPM
-                  </a>
-                </p>
-                <div class="home__blog__desc">
-                  Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
-                  của nguyên tác anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
-                  nhưng phiên bản manga đã có những thêm thắt và biến đổi của
-                  riêng mình, đồng thời gây ra một cú nổ thương mại. Được ra mắt
-                  lần đầu vào năm 1994, số lượng tiêu thụ của manga Neon Genesis
-                  Evangelion thời điểm đó đã lên tới hơn chục triệu bản và liên
-                  tiếp gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng.
-                </div>
-              </div>
-            </div>
-
-            <div class="home__page__blog__item swiper-slide">
-              <div class="home__page__blog__img" style="
-                        background-image: url(https://file.hstatic.net/200000287623/file/z4862922132684_05aef0c36490c7874db84ac6b5d01478_c8448812054c47c2bdbff6163eaca805_grande.jpg);
-                      "></div>
-              <div class="home__page__blog__detail">
-                <p class="home__blog__name">
-                  <a href="">
-                    NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023 CỦA
-                    IPM
-                  </a>
-                </p>
-                <div class="home__blog__desc">
-                  Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
-                  của nguyên tác anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
-                  nhưng phiên bản manga đã có những thêm thắt và biến đổi của
-                  riêng mình, đồng thời gây ra một cú nổ thương mại. Được ra mắt
-                  lần đầu vào năm 1994, số lượng tiêu thụ của manga Neon Genesis
-                  Evangelion thời điểm đó đã lên tới hơn chục triệu bản và liên
-                  tiếp gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng.
-                </div>
-              </div>
-            </div>
-            <div class="home__page__blog__item swiper-slide">
-              <div class="home__page__blog__img" style="
-                        background-image: url(https://file.hstatic.net/200000287623/file/z4862922132684_05aef0c36490c7874db84ac6b5d01478_c8448812054c47c2bdbff6163eaca805_grande.jpg);
-                      "></div>
-              <div class="home__page__blog__detail">
-                <p class="home__blog__name">
-                  <a href="">
-                    NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023 CỦA
-                    IPM
-                  </a>
-                </p>
-                <div class="home__blog__desc">
-                  Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
-                  của nguyên tác anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
-                  nhưng phiên bản manga đã có những thêm thắt và biến đổi của
-                  riêng mình, đồng thời gây ra một cú nổ thương mại. Được ra mắt
-                  lần đầu vào năm 1994, số lượng tiêu thụ của manga Neon Genesis
-                  Evangelion thời điểm đó đã lên tới hơn chục triệu bản và liên
-                  tiếp gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng.
-                </div>
-              </div>
-            </div>
-            <div class="home__page__blog__item swiper-slide">
-              <div class="home__page__blog__img" style="
-                        background-image: url(https://file.hstatic.net/200000287623/file/z4862922132684_05aef0c36490c7874db84ac6b5d01478_c8448812054c47c2bdbff6163eaca805_grande.jpg);
-                      "></div>
-              <div class="home__page__blog__detail">
-                <p class="home__blog__name">
-                  <a href="">
-                    NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023 CỦA
-                    IPM
-                  </a>
-                </p>
-                <div class="home__blog__desc">
-                  Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
-                  của nguyên tác anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
-                  nhưng phiên bản manga đã có những thêm thắt và biến đổi của
-                  riêng mình, đồng thời gây ra một cú nổ thương mại. Được ra mắt
-                  lần đầu vào năm 1994, số lượng tiêu thụ của manga Neon Genesis
-                  Evangelion thời điểm đó đã lên tới hơn chục triệu bản và liên
-                  tiếp gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng.
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="control owl__pre swiper-button-prev">
-
-          </div>
-          <div class="control owl__next swiper-button-next">
-          </div>
-        </div>
       </div>
-    </div> -->
+    </div>
   </div>
 
   <footer class="footer__poisition">
@@ -990,6 +881,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.js"></script>
 
   <script src="js/main.js"></script>
+  </div>
 </body>
 
 </html>

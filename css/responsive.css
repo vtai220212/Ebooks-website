@@ -63,21 +63,11 @@
         max-width: 180px;
     }
 
-        .home__tablist {
-            overflow-x: auto;
-            /* Thiết lập thanh cuộn ngang khi nội dung vượt quá kích thước của phần tử */
-            /* Ngăn chặn việc xuống dòng cho các phần tử con */
-        }
     
-        .home__tablist__item {
-            display: inline-block;
-            /* Hiển thị các phần tử liền kề nhau trên cùng một hàng */
-            margin-right: 10px;
-            /* Khoảng cách giữa các phần tử */
-        }
-        .container__cus {
-            justify-content: unset;
-        }
+
+
+
+
 
 
 

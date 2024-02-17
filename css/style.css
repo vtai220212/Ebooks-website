@@ -35,6 +35,9 @@ html {
     font-size: 100%;
 }
 
+.app {
+    overflow: hidden;
+}
 /* NAVBAR SALE */
 .navbar__sale {
     background-color: var(--primary-color);
@@ -475,7 +478,19 @@ html {
     position: relative;
     justify-content: center;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    
 }
+.hnt-tab {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    
+}
+
 
 .home__tablist .container {
     display: flex;
@@ -485,16 +500,19 @@ html {
 
 .home__tablist__item {
     list-style: none;
-    margin: 20px;
+    margin: 10px 30px;
     display: flex;
     align-items: center;
     font-size: 16px;
     font-weight: bold;
+    
+    
 }
 
-.home__tablist__item a {
+.home__tablist__item  a {
     text-decoration: none;
     color: var(--black-color);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .home__product {
