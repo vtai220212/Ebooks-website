@@ -709,7 +709,7 @@ html {
 }
 
 .home__product__item:hover .home__product__action {
-    transform: translateX(-50px);
+    transform: translateX(-20px);
     visibility: visible;
     opacity: 1;
 }

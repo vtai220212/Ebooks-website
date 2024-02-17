@@ -55,15 +55,17 @@
     .home__product__action .buy__now__product,
     .home__product__action .add__cart__product {
         display: none;
-        align-items: center;
-        text-align: center;
+        
     }
 
-    .img__pro a img {
-        max-width: 180px;
-    }
+        .home__product__item:hover .home__product__action {
+            transform: translateX(-60px);
+            visibility: visible;
+            opacity: 1;
+        }
 
-    
+
+
 
 
 
