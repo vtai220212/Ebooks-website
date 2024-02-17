@@ -182,6 +182,7 @@ html {
     position: relative;
     display: flex;
     margin: auto;
+    
     justify-content: center;
 }
 
@@ -232,15 +233,13 @@ html {
     display: none;
 }
 
-.nav__bars-btn i {
-    padding: 0 20px;
-}
+
 
 .nav__item {
     display: flex;
     float: right;
     align-items: center;
-    margin: auto;
+    margin: 0 5px;
     height: 50px;
 }
 
@@ -420,6 +419,7 @@ html {
 
 /* HOME POLICY */
 .home__policy {
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -524,7 +524,6 @@ html {
 
 
 .home__product__item {
-
     animation: zoom-pro 0.5s;
     transition: transform 0.2s ease-out;
     will-change: transform;
@@ -569,7 +568,9 @@ html {
     text-align: center;
     position: relative;
     width: 100%;
-    max-width: 210px;
+    padding: 0 5px;
+    
+    max-width: 220px;
 }
 
 
@@ -621,7 +622,7 @@ html {
 .home__product__sale-off {
     position: absolute;
     right: 15px;
-    top: 0;
+    top: 1px;
     width: 40px;
     height: 30px;
     text-align: center;
