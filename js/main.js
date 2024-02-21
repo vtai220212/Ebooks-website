@@ -47,25 +47,34 @@ function imgSlide() {
 setInterval(imgSlide, 4000)
 
 
+
+
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
+  slidesPerView: 1,
+  spaceBetween: 20,
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
-  },
-});
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  centeredSlides: false,
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    type: "fraction",
+    type: "bullets",
   },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    // Khi kích thước màn hình nhỏ hơn hoặc bằng 768px (thích hợp cho điện thoại),
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    // Khi kích thước màn hình nhỏ hơn hoặc bằng 1024px (thích hợp cho máy tính bảng),
+    1023: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
 });
+
+
+
+
 

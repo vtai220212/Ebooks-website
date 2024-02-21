@@ -10,13 +10,13 @@
   <link rel="stylesheet" href="css/grid.css" />
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
   <div class="app">
-
-
+    <!-- header -->
     <div class="header__content">
       <div class="navbar__sale hide-on-mobile">
         <div class="container grid wide">
@@ -181,796 +181,1076 @@
         </div>
       </div>
     </div>
+    <!-- end header -->
 
+    <!-- body -->
     <div class="wrapper__content">
-      <div class="home__policy hide-on-mobile">
-        <div class="container grid wide">
-          <div class="home__policy__list row">
-            <div class="home__policy__item m-6 c-6 l-3">
-              <div class="item__policy">
-                <div class="icon">
-                  <img src="./images/icon1.png" alt="" />
-                </div>
-                <div class="info">
-                  ƯU ĐÃI <br />
-                  VẬN CHUYỂN
+      <div class="container">
+
+
+        <div class="home__policy hide-on-mobile">
+          <div class="container grid wide">
+            <div class="home__policy__list row">
+              <div class="home__policy__item col  m-6 c-6 l-3">
+                <div class="item__policy">
+                  <div class="icon">
+                    <img src="./images/icon1.png" alt="" />
+                  </div>
+                  <div class="info">
+                    ƯU ĐÃI <br />
+                    VẬN CHUYỂN
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="home__policy__item m-6 c-6 l-3">
-              <div class="item__policy">
-                <div class="icon">
-                  <img src="./images/icon2.png" alt="THỂ LOẠI SÁCH <br> PHONG PHÚ" />
-                </div>
-                <div class="info">
-                  THỂ LOẠI SÁCH <br />
-                  PHONG PHÚ
+              <div class="home__policy__item col  m-6 c-6 l-3">
+                <div class="item__policy">
+                  <div class="icon">
+                    <img src="./images/icon2.png" alt="THỂ LOẠI SÁCH <br> PHONG PHÚ" />
+                  </div>
+                  <div class="info">
+                    THỂ LOẠI SÁCH <br />
+                    PHONG PHÚ
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="home__policy__item m-6 c-6 l-3">
-              <div class="item__policy">
-                <div class="icon">
-                  <img src="./images/icon3.png" alt="KHUYẾN MẠI HẤP DẪN" />
-                </div>
-                <div class="info">
-                  KHUYẾN MẠI <br />
-                  HẤP DẪN
+              <div class="home__policy__item col  m-6 c-6 l-3">
+                <div class="item__policy">
+                  <div class="icon">
+                    <img src="./images/icon3.png" alt="KHUYẾN MẠI HẤP DẪN" />
+                  </div>
+                  <div class="info">
+                    KHUYẾN MẠI <br />
+                    HẤP DẪN
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="home__policy__item m-6 c-6 l-3">
-              <div class="item__policy">
-                <div class="icon">
-                  <img src="./images/icon4.png" alt="" />
-                </div>
-                <div class="info">
-                  HOTLINE <br />
-                  0852 698 408 <br />
-                  0386 876 573
+              <div class="home__policy__item  col m-6 c-6 l-3">
+                <div class="item__policy">
+                  <div class="icon">
+                    <img src="./images/icon4.png" alt="" />
+                  </div>
+                  <div class="info">
+                    HOTLINE <br />
+                    0852 698 408 <br />
+                    0386 876 573
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="home__newtab">
-        <div class="container grid wide">
-          <div class="home__tablist">
-            <ul class="hnt-tab">
-              <li class="home__tablist__item active">
-                <a>NEWS</a>
-              </li>
-              <li class="home__tablist__item">
-                <a>BEST SELLER</a>
-              </li>
-              <li class="home__tablist__item">
-                <a> HOT DEAL</a>
-              </li>
-              <li class="home__tablist__item">
-                <a>FLASH SALE</a>
-              </li>
-            </ul>
-            <div class="line hide-on-mobile"></div>
+        <div class="home__newtab">
+          <div class="container grid wide">
+            <div class="home__tablist">
+              <ul class="hnt-tab">
+                <li class="home__tablist__item active">
+                  <a>NEWS</a>
+                </li>
+                <li class="home__tablist__item">
+                  <a>BEST SELLER</a>
+                </li>
+                <li class="home__tablist__item">
+                  <a> HOT DEAL</a>
+                </li>
+                <li class="home__tablist__item">
+                  <a>FLASH SALE</a>
+                </li>
+              </ul>
+              <div class="line hide-on-mobile"></div>
+            </div>
+          </div>
+          <div class="home__product">
+            <div class="container grid wide">
+              <div class="row">
+                <div class="tab__pane active">
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="product-block">
+
+
+                      <div class="home__product__image">
+                        <div class="img__pro">
+                          <a href="">
+                            <img
+                              src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                              alt="" />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="home__product__detail">
+                        <h5 class="home__product__name">
+                          <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                        </h5>
+                        <div class="home__product__price">
+                          <span class="price">55,250đ</span>
+                          <span class="price__old">65,000đ</span>
+                        </div>
+                        <div class="home__product__sale-off">
+                          <span class="home__product__percent">10 %</span>
+                        </div>
+                        <div class="home__product__action">
+                          <div class="view__product">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div class="buy__now__product hide-on-mobile">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </div>
+                          <div class="add__cart__product hide-on-mobile">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product hide-on-mobile">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product hide-on-mobile">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/tang_hoa_cho_quai_vat_trong_rung_-_bia_1_d6bb343b94444c3291611e667c154439_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/oshi_no_ko_6_-_bia1_dc52f93a509b48fa84f3b758974e577a_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab__pane ">
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="product-block">
+
+
+                      <div class="home__product__image">
+                        <div class="img__pro">
+                          <a href="">
+                            <img
+                              src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                              alt="" />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="home__product__detail">
+                        <h5 class="home__product__name">
+                          <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                        </h5>
+                        <div class="home__product__price">
+                          <span class="price">55,250đ</span>
+                          <span class="price__old">65,000đ</span>
+                        </div>
+                        <div class="home__product__sale-off">
+                          <span class="home__product__percent">10 %</span>
+                        </div>
+                        <div class="home__product__action">
+                          <div class="view__product">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div class="buy__now__product hide-on-mobile">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </div>
+                          <div class="add__cart__product hide-on-mobile">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product hide-on-mobile">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product hide-on-mobile">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/tang_hoa_cho_quai_vat_trong_rung_-_bia_1_d6bb343b94444c3291611e667c154439_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/oshi_no_ko_6_-_bia1_dc52f93a509b48fa84f3b758974e577a_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab__pane ">
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="product-block">
+
+
+                      <div class="home__product__image">
+                        <div class="img__pro">
+                          <a href="">
+                            <img
+                              src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                              alt="" />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="home__product__detail">
+                        <h5 class="home__product__name">
+                          <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                        </h5>
+                        <div class="home__product__price">
+                          <span class="price">55,250đ</span>
+                          <span class="price__old">65,000đ</span>
+                        </div>
+                        <div class="home__product__sale-off">
+                          <span class="home__product__percent">10 %</span>
+                        </div>
+                        <div class="home__product__action">
+                          <div class="view__product">
+                            <i class="fa-regular fa-eye"></i>
+                          </div>
+                          <div class="buy__now__product hide-on-mobile">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </div>
+                          <div class="add__cart__product hide-on-mobile">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product hide-on-mobile">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product hide-on-mobile">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/tang_hoa_cho_quai_vat_trong_rung_-_bia_1_d6bb343b94444c3291611e667c154439_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="home__product__item col pro-loop l-2-4 m-4 c-6">
+                    <div class="home__product__image">
+                      <div class="img__pro">
+                        <a href="">
+                          <img
+                            src="https://product.hstatic.net/200000287623/product/oshi_no_ko_6_-_bia1_dc52f93a509b48fa84f3b758974e577a_large.jpg"
+                            alt="" />
+                        </a>
+                      </div>
+                    </div>
+                    <div class="home__product__detail">
+                      <h5 class="home__product__name">
+                        <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
+                      </h5>
+                      <div class="home__product__price">
+                        <span class="price">55,250đ</span>
+                        <span class="price__old">65,000đ</span>
+                      </div>
+                      <div class="home__product__sale-off">
+                        <span class="home__product__percent">10 %</span>
+                      </div>
+                      <div class="home__product__action">
+                        <div class="view__product">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <div class="buy__now__product">
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                        <div class="add__cart__product">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab__pane ">
+                  <div class="row">
+                    <p style="margin: 30px 0">Hiện chưa có sản phẩm!!!</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="button__more">
+                <a href="shop.html" class="btn__mores">XEM THÊM</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="home__product">
+
+        <div class="home__page__blog">
           <div class="container grid wide">
             <div class="row">
-              <div class="tab__pane active">
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product hide-on-mobile">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product hide-on-mobile">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product hide-on-mobile">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product hide-on-mobile">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/tang_hoa_cho_quai_vat_trong_rung_-_bia_1_d6bb343b94444c3291611e667c154439_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/oshi_no_ko_6_-_bia1_dc52f93a509b48fa84f3b758974e577a_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="home__page__title">
+                <span>BÀI VIẾT MỚI</span>
               </div>
-              <div class="tab__pane ">
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
+              <div #swiperRef="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="home__page__blog__item">
+                      <div class="home__page__blog__img">
+                        <div class="img__page"><a href="" class="disabled"><img
+                              src="https://file.hstatic.net/200000287623/article/415042767_3731804263753461_1584923426571366817_n_e142202f00b84276a2c6b1ceaa972fc2_large.jpg"
+                              alt=""></a></div>
                       </div>
-                      <div class="buy__now__product hide-on-mobile">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product hide-on-mobile">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                      <div class="home__page__blog__detail">
+                        <p class="home__blog__name"><a href="">NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023
+                            CỦA
+                            IPM
+                          </a></p>
+                        <div class="home__blog__desc">Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
+                          của
+                          nguyên tác
+                          anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
+                          nhưng phiên bản manga đã có những thêm thắt và biến đổi của riêng mình,
+                          đồng thời gây ra một cú nổ thương mại. Được ra mắt lần đầu vào năm 1994,
+                          số lượng tiêu thụ của manga Neon Genesis Evangelion thời điểm đó đã lên tới hơn chục triệu bản
+                          và
+                          liên tiếp
+                          gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng. </div>
                       </div>
                     </div>
                   </div>
+                  <div class="swiper-slide">
+                    <div class="home__page__blog__item">
+                      <div class="home__page__blog__img">
+                        <div class="img__page"><a href="" class="disabled"><img
+                              src="https://file.hstatic.net/200000287623/article/415042767_3731804263753461_1584923426571366817_n_e142202f00b84276a2c6b1ceaa972fc2_large.jpg"
+                              alt=""></a></div>
+                      </div>
+                      <div class="home__page__blog__detail">
+                        <p class="home__blog__name"><a href="">NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023
+                            CỦA
+                            IPM
+                          </a></p>
+                        <div class="home__blog__desc">Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
+                          của
+                          nguyên tác
+                          anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
+                          nhưng phiên bản manga đã có những thêm thắt và biến đổi của riêng mình,
+                          đồng thời gây ra một cú nổ thương mại. Được ra mắt lần đầu vào năm 1994,
+                          số lượng tiêu thụ của manga Neon Genesis Evangelion thời điểm đó đã lên tới hơn chục triệu bản
+                          và
+                          liên tiếp
+                          gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng. </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="home__page__blog__item">
+                      <div class="home__page__blog__img">
+                        <div class="img__page"><a href="" class="disabled"><img
+                              src="https://file.hstatic.net/200000287623/article/415042767_3731804263753461_1584923426571366817_n_e142202f00b84276a2c6b1ceaa972fc2_large.jpg"
+                              alt=""></a></div>
+                      </div>
+                      <div class="home__page__blog__detail">
+                        <p class="home__blog__name"><a href="">NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023
+                            CỦA
+                            IPM
+                          </a></p>
+                        <div class="home__blog__desc">Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
+                          của
+                          nguyên tác
+                          anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
+                          nhưng phiên bản manga đã có những thêm thắt và biến đổi của riêng mình,
+                          đồng thời gây ra một cú nổ thương mại. Được ra mắt lần đầu vào năm 1994,
+                          số lượng tiêu thụ của manga Neon Genesis Evangelion thời điểm đó đã lên tới hơn chục triệu bản
+                          và
+                          liên tiếp
+                          gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng. </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="home__page__blog__item">
+                      <div class="home__page__blog__img">
+                        <div class="img__page"><a href="" class="disabled"><img
+                              src="https://file.hstatic.net/200000287623/article/415042767_3731804263753461_1584923426571366817_n_e142202f00b84276a2c6b1ceaa972fc2_large.jpg"
+                              alt=""></a></div>
+                      </div>
+                      <div class="home__page__blog__detail">
+                        <p class="home__blog__name"><a href="">NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023
+                            CỦA
+                            IPM
+                          </a></p>
+                        <div class="home__blog__desc">Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
+                          của
+                          nguyên tác
+                          anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
+                          nhưng phiên bản manga đã có những thêm thắt và biến đổi của riêng mình,
+                          đồng thời gây ra một cú nổ thương mại. Được ra mắt lần đầu vào năm 1994,
+                          số lượng tiêu thụ của manga Neon Genesis Evangelion thời điểm đó đã lên tới hơn chục triệu bản
+                          và
+                          liên tiếp
+                          gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng. </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="home__page__blog__item">
+                      <div class="home__page__blog__img">
+                        <div class="img__page"><a href="" class="disabled"><img
+                              src="https://file.hstatic.net/200000287623/article/415042767_3731804263753461_1584923426571366817_n_e142202f00b84276a2c6b1ceaa972fc2_large.jpg"
+                              alt=""></a></div>
+                      </div>
+                      <div class="home__page__blog__detail">
+                        <p class="home__blog__name"><a href="">NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023
+                            CỦA
+                            IPM
+                          </a></p>
+                        <div class="home__blog__desc">Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
+                          của
+                          nguyên tác
+                          anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
+                          nhưng phiên bản manga đã có những thêm thắt và biến đổi của riêng mình,
+                          đồng thời gây ra một cú nổ thương mại. Được ra mắt lần đầu vào năm 1994,
+                          số lượng tiêu thụ của manga Neon Genesis Evangelion thời điểm đó đã lên tới hơn chục triệu bản
+                          và
+                          liên tiếp
+                          gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng. </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="home__page__blog__item">
+                      <div class="home__page__blog__img">
+                        <div class="img__page"><a href="" class="disabled"><img
+                              src="https://file.hstatic.net/200000287623/article/415042767_3731804263753461_1584923426571366817_n_e142202f00b84276a2c6b1ceaa972fc2_large.jpg"
+                              alt=""></a></div>
+                      </div>
+                      <div class="home__page__blog__detail">
+                        <p class="home__blog__name"><a href="">NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023
+                            CỦA
+                            IPM
+                          </a></p>
+                        <div class="home__blog__desc">Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
+                          của
+                          nguyên tác
+                          anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
+                          nhưng phiên bản manga đã có những thêm thắt và biến đổi của riêng mình,
+                          đồng thời gây ra một cú nổ thương mại. Được ra mắt lần đầu vào năm 1994,
+                          số lượng tiêu thụ của manga Neon Genesis Evangelion thời điểm đó đã lên tới hơn chục triệu bản
+                          và
+                          liên tiếp
+                          gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng. </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="home__page__blog__item">
+                      <div class="home__page__blog__img">
+                        <div class="img__page"><a href="" class="disabled"><img
+                              src="https://file.hstatic.net/200000287623/article/415042767_3731804263753461_1584923426571366817_n_e142202f00b84276a2c6b1ceaa972fc2_large.jpg"
+                              alt=""></a></div>
+                      </div>
+                      <div class="home__page__blog__detail">
+                        <p class="home__blog__name"><a href="">NEON GENESIS EVANGELION: ẤN PHẨM ĐÁNG NHỚ CUỐI NĂM 2023
+                            CỦA
+                            IPM
+                          </a></p>
+                        <div class="home__blog__desc">Manga Neon Genesis Evangelion được sáng tác dựa trên câu chuyện
+                          của
+                          nguyên tác
+                          anime. Vẫn giữ nguyên hầu hết mạch truyện chính,
+                          nhưng phiên bản manga đã có những thêm thắt và biến đổi của riêng mình,
+                          đồng thời gây ra một cú nổ thương mại. Được ra mắt lần đầu vào năm 1994,
+                          số lượng tiêu thụ của manga Neon Genesis Evangelion thời điểm đó đã lên tới hơn chục triệu bản
+                          và
+                          liên tiếp
+                          gặt hái nhiều thành tích ấn tượng trên các bảng xếp hạng. </div>
+                      </div>
+                    </div>
+                  </div>
+
+
                 </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product hide-on-mobile">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product hide-on-mobile">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/tang_hoa_cho_quai_vat_trong_rung_-_bia_1_d6bb343b94444c3291611e667c154439_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/oshi_no_ko_6_-_bia1_dc52f93a509b48fa84f3b758974e577a_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tab__pane ">
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product hide-on-mobile">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product hide-on-mobile">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product hide-on-mobile">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product hide-on-mobile">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/skip_and_loafer_4_-_bia_1_08af629df3ca43cebb8094750afca256_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/tang_hoa_cho_quai_vat_trong_rung_-_bia_1_d6bb343b94444c3291611e667c154439_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home__product__item pro-loop l-2-4 m-4 c-6">
-                  <div class="home__product__image">
-                    <div class="img__pro">
-                      <a href="">
-                        <img
-                          src="https://product.hstatic.net/200000287623/product/oshi_no_ko_6_-_bia1_dc52f93a509b48fa84f3b758974e577a_large.jpg"
-                          alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <div class="home__product__detail">
-                    <h5 class="home__product__name">
-                      <a href="detailpro.html">Khẽ Hát Lời Yêu - 1</a>
-                    </h5>
-                    <div class="home__product__price">
-                      <span class="price">55,250đ</span>
-                      <span class="price__old">65,000đ</span>
-                    </div>
-                    <div class="home__product__sale-off">
-                      <span class="home__product__percent">10 %</span>
-                    </div>
-                    <div class="home__product__action">
-                      <div class="view__product">
-                        <i class="fa-regular fa-eye"></i>
-                      </div>
-                      <div class="buy__now__product">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                      </div>
-                      <div class="add__cart__product">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="tab__pane ">
-                <div class="row">
-                  <p style="margin: 30px 0">Hiện chưa có sản phẩm!!!</p>
-                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="button__more">
-      <a href="" class="btn__mores">XEM THÊM</a>
-    </div>
-    <div class="home__page__blog">
-      <div class="container">
-        <div class="home__page__title">
-          <span>BÀI VIẾT MỚI</span>
+
+
+    <!-- end body -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container grid wide">
+        <div class="row">
+          <div class="contact-footer col-custom col m-12 c-12 l-4">
+            <div class="logo__footer  ">
+              <a href="">
+                <img src="./images/logo-footer.png" alt="">
+              </a>
+            </div>
+            <p class="maker__first  ">
+              <i class="fa-solid fa-location-dot"></i>
+              <span> Số 110 Nguyễn Ngọc Nại, Khương Mai, Thanh Xuân, Hà Nội</span>
+            </p>
+            <p class=" ">
+              <i class="fa-solid fa-phone"></i>
+              HOTLINE: 0852 698 408
+            </p>
+            <p class="">
+              <i class="fa-solid fa-envelope"></i>
+              Email: tvantai0703@gmail.com
+            </p>
+
+          </div>
+          <div class="policy-footer col-custom col m-12 c-12 l-5">
+            <div class="row">
+              <div class="footer-block  col c-6 m-7 l-7">
+                <h4 class="footer-title">HỖ TRỢ KHÁCH HÀNG</h4>
+                <ul>
+                  <li>
+                    <a href="">
+                      Điều khoản thường gặp
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      Câu hỏi thường gặp
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+              <div class="footer-block  col c-6 m-5 l-5">
+                <h4 class="footer-title">CHÍNH SÁCH</h4>
+                <ul>
+                  <li>
+                    <a href="">
+                      Chính sách bảo mật
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      Chính sách thanh toán
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      Chính sách vận chuyển
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      Chính sách đổi trả
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col c-12 l-12">
+                <div class="footer-block">
+                  <h4 class="footer-title">ĐĂNG KÝ NHẬN TIN</h4>
+                  <div>
+                    <p>
+                      <span>
+                        Hãy nhập email của bạn vào ô dưới đây để có thể nhận được tất cả tin tức mới nhất của IPM
+                      </span>
+                    </p>
+                    <div class="footer-sub">
+                      <div class="row">
+                        <div class="col l-8 m-12 form-subcribe">
+                          <div class="subcribe-input">
+                            <form action="">
+                              <input type="text" class="input-sub" placeholder="Nhập vào email của bạn!!!!!...">
+                              <div class="sub-submit">
+                                ĐĂNG KÝ
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="col l-4  hide-on-mobile btc-imgages">
+                          <div class="btc-img">
+                            <a href="">
+                              <img src="./images/bct_img.png" alt="">
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="link-footer col-custom col m-12 c-12 l-3">
+            <div class="footer-block">
+              <h4 class="footer-title">KẾT NỐI VỚI CHÚNG TÔI</h4>
+            </div>
+            <div class="footer-block footer-social">
+              <h4 class="footer-title">Các kênh khác</h4>
+              <div class="last-content">
+                <div class="icon-footer">
+                  <a href="">
+                    <i class='bx bxl-facebook-square'></i>
+                  </a>
+                  <a href="">
+                    <i class='bx bxl-twitter'></i>
+                  </a>
+                  <a href="">
+                    <i class='bx bxl-youtube'></i>
+                  </a>
+                </div>
+                <div class="btc-imgages l-0 m-0">
+                  <div class="btc-img">
+                    <a href="">
+                      <img src="./images/bct_img.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-
       </div>
-    </div>
+    </footer>
+    <!-- end footer -->
   </div>
 
-  <footer class="footer__poisition">
-    <div class="container">
-      <div class="contact__footer">
-        <div class="logo__footer">
-          <span>Ebooks</span>
-        </div>
-        <p class="maker__first">
-          <i class="fa-solid fa-location-dot"></i>
-          <span> Số 110 Nguyễn Ngọc Nại, Khương Mai, Thanh Xuân, Hà Nội</span>
-        </p>
-        <p>
-          <i class="fa-solid fa-phone"></i>
-          HOTLINE: 0852 698 408
-        </p>
-        <p>
-          <i class="fa-solid fa-envelope"></i>
-          Email: tvantai0703@gmail.com
-        </p>
-      </div>
 
-      <div class="policy__footer">
-        <div class="policy__footer__item">
-          <div class="footer__item__block">
-            <h1>HỖ TRỢ KHÁCH HÀNG</h1>
-            <a href="">Câu hỏi thường gặp</a>
-            <a href="">Điều khoản dịch vụ</a>
-          </div>
-          <div class="footer__item__block">
-            <h1>CHÍNH SÁCH</h1>
-            <a href=""> Chính sách bảo mật</a>
-            <a href="">Chính sách thanh toán</a>
-            <a href="">Chính sách vận chuyển</a>
-            <a href="">Chính sách đổi trả</a>
-          </div>
-          <div class="footer__subcribe">
-            <h1>ĐĂNG KÝ NHẬN TIN</h1>
-            <div class="">
-              <p>
-                Hãy nhập email của bạn vào ô dưới đây để có thể nhận được tất
-                cả tin tức mới nhất của IPM
-              </p>
-              <div class="footer__subcribe__wrap">
-                <form action="" class="form__subcribe">
-                  <input type="search" class="subcribe" placeholder="Nhập email của bạn...." />
-                  <button type="submit" class="search__btn__footer">
-                    <span> ĐĂNG KÝ</span>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer__social">
-        <h1>KẾT NỐI VỚI CHÚNG TÔI</h1>
-        <h4>CÁC KÊNH KHÁC</h4>
-        <div class="footer__social__item">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-youtube"></i>
-        </div>
-      </div>
-    </div>
-  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.js"></script>
-
   <script src="js/main.js"></script>
   </div>
 </body>
