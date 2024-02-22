@@ -53,10 +53,11 @@
     .img__page a img {
         width: 100%;
     }
-        .btc-imgages .btc-img a img {
-            height: 100px;
-            width: 100%;
-        }
+
+    .btc-imgages .btc-img a img {
+        height: 100px;
+        width: 100%;
+    }
 }
 
 /* MOBILEEEEEE */
@@ -130,10 +131,12 @@
     .search__btn__footer span {
         font-size: 12px;
     }
+
     .col-custom {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .btc-img a img {
         width: 100%;
         max-width: 120px;
@@ -144,19 +147,12 @@
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    
 
-    
+    .home__title {
+        font-size: 13px;
+        padding: 15px;
+    }
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
