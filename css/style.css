@@ -85,7 +85,6 @@ html {
 .navbar__logo {
     display: flex;
     text-align: center;
-    margin: auto;
 
 }
 
@@ -172,7 +171,6 @@ html {
 .nav__item i {
     list-style: none;
     font-size: 20px;
-    padding: 0 20px;
     display: flex;
     align-items: center;
     color: var(--primary-color);
@@ -227,12 +225,10 @@ html {
     order: 3;
 }
 
-.orther__navbar {}
 
 .nav__bars-btn {
     width: 40px;
     height: 50px;
-    font-size: 30px;
     color: var(--primary-color);
     display: none;
 }
@@ -243,7 +239,6 @@ html {
     display: flex;
     float: right;
     align-items: center;
-    margin: 0 5px;
     height: 50px;
 }
 
