@@ -68,10 +68,6 @@ html {
     content: '';
 }
 
-.home__product {
-    margin-top: 0;
-}
-
 
 .item {
     list-style: none;
@@ -98,7 +94,9 @@ html {
 }
 
 
-
+.tab__product {
+    margin-top: 0;
+}
 
 .sidebar .item a:hover {
     color: var(--primary-color);
@@ -216,3 +214,4 @@ html {
         background-color: #fff;
         font-weight: 300;
 }
+
