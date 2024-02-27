@@ -66,16 +66,18 @@
     }
 
     .navbar__logo img {
-       max-width: 100%;
+        max-width: 100%;
     }
 
     .hnt-tab {
         margin: 10px;
     }
+
     .navbar__search {
         order: 5;
         margin-top: 5px;
     }
+
     .search__text {
         width: 300px;
     }
@@ -136,10 +138,7 @@
         font-size: 12px;
     }
 
-    .col-custom {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+    
 
     .btc-img a img {
         width: 100%;
@@ -171,9 +170,12 @@
 
     }
 
-        .home__about__content {
-            font-size: 14px;
+    .home__about__content {
+        font-size: 14px;
+    }
+   
+        .col-custom {
+            padding-left: 10px;
+            padding-right: 10px;
         }
-
-
 }

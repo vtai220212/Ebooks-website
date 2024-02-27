@@ -14,12 +14,14 @@
     justify-content: center;
 }
 
+.home__contact__content .container {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-.home__contact h1 {
+.home__contact h4 {
     font-size: 18px;
-    background: #fff;
     padding: 10px 15px 10px 15px;
-    border-bottom: 1px solid #e0e0e0;
     content: "";
     font-weight: normal;
     text-transform: uppercase;
@@ -62,20 +64,13 @@ hr {
 .home__contact__content p {
     font-size: 14px;
     font-weight: 300;
-    padding: 10px 0;
-}
-
-.home__contact__form {
-    width: 50%;
-    padding: 0 15px;
 }
 
 .contact__form input {
-    padding: 8px 16px;
     font-size: 14px;
-    width: 520px;
-    line-height: 17px;
+    height: 40px;
     border-radius: 4px;
+    width: 100%;
     border-width: 1px;
     border-color: #D9D9D9;
 }
@@ -86,9 +81,7 @@ hr {
 
 .home__contact__content .controller {
     display: block;
-    width: 520px;
-    height: 136px;
-    padding: 8px 16px;
+    width: 100%;
     font-size: 14px;
     line-height: 1.42857;
     border-radius: 4px;
@@ -101,13 +94,14 @@ hr {
 
 .home__contact__content ::placeholder {
     font-size: 12px;
+    padding: 0 10px;
 }
 
 input[type=submit] {
     -webkit-appearance: button;
     cursor: pointer;
-    width: 145px;
     height: 45px;
+    width: 100px;
     align-items: flex-start;
     background-color: var(--primary-color);
     border-color: #D9D9D9;
@@ -118,7 +112,6 @@ input[type=submit] {
     display: inline-block;
     line-height: 21.28px;
     margin: 0px 0px 35px;
-    padding: 10px 32px;
     text-align: center
 }
 

@@ -11,13 +11,11 @@
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 </head>
-
 
 <body>
     <div class="app">
-
         <!-- header -->
         <div class="header__content">
             <div class="navbar__sale hide-on-mobile">
@@ -40,7 +38,6 @@
                 <div class="navbar__container grid wide">
                     <div class="row">
                         <label class="nav__bars-btn col m-3 l-0 c-3" for="nav__mobile">
-
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -50,7 +47,7 @@
                         <div class="navbar__logo col l-3 m-6 c-6">
                             <img src="./images/logo.png" alt="" class="logo" />
                         </div>
-                        <div class="navbar__search l-6 m-12 ">
+                        <div class="navbar__search l-6 m-12">
                             <form class="search__form" action="">
                                 <div class="input-group l-12 c-12 m-12">
                                     <input class="search__text" type="search" placeholder="Tìm kiếm..." />
@@ -131,6 +128,40 @@
                 </div>
             </div>
 
+            <div class="navbar-mobile l-0 m-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col c-4">
+                            <div class="mobile-nav-item">
+                                <a href="">
+                                    <i class="fa-solid fa-tag"></i>
+                                    <br>
+                                    Mua Hàng
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col c-4">
+                            <div class="mobile-nav-item">
+                                <a href="">
+                                    <i class="fa-solid fa-gift"></i>
+                                    <br>
+                                    Hot Deal
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col c-4">
+                            <div class="mobile-nav-item">
+                                <a href="">
+                                    <i class="fa-solid fa-circle-user"></i>
+                                    <br>
+                                    Tài Khoản
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="home__menu hide-on-mobile-tablet hide-on-mobile">
                 <div class="container">
                     <div class="navbar__main">
@@ -183,99 +214,98 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
         <!-- end header -->
 
         <!-- body  -->
         <div class="wrapper-contact">
-            <div class="container gird wide">
-                <div class="row">
-
-                    <div class="home__contact">
-                        <div class="container">
+            <div class="container">
+                <div class="home__contact">
+                    <div class="container grid wide">
+                        <div class="row">
                             <span>
-                                <h1>LIÊN HỆ</h1>
+                                <h4>LIÊN HỆ</h4>
                             </span>
 
-                            <div class="home__contact__map">
-                                <iframe
+                            <div class="home__contact__map col l-12 c-12 m-12">
+                                <iframe class="col"
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.15702797477!2d105.14295088064371!3d9.920877093831656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0b77d9319b099%3A0xbc78980755dd9eb5!2zTmjDoCB0cuG7jSBUaGFuaCBUdeG6pW4!5e0!3m2!1svi!2s!4v1706189528417!5m2!1svi!2s"
-                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
 
-                            <div class="home__contact__content">
-                                <div class="home__contact__form">
-                                    <h3>Viết nhận xét</h3>
-                                    <hr>
-                                    <p>Nếu bạn có thắc mắc gì, có thể gửi yêu cầu cho chúng tôi, và chúng tôi sẽ liên
-                                        lạc lại
-                                        với
-                                        bạn
-                                        sớm nhất có thể .</p>
-                                    <form action="" class="contact__form">
-                                        <div class="form__group">
-                                            <input type="text" placeholder="Tên của bạn">
-                                        </div>
-                                        <div class="form__group">
-                                            <input type="text" placeholder="Email của bạn">
-                                        </div>
-                                        <div class="form__group">
-                                            <textarea name="" id="" cols="30" rows="10" class="controller"></textarea>
-                                        </div>
-                                        <input type="submit" value="Gửi liên hệ">
-                                    </form>
-                                </div>
+                            <div class="home__contact__content col l-12 c-12 m-12">
+                                <div class="container col c-12">
+                                    <div class="home__contact__form col l-8 m-12 c-12">
+                                        <h3 class="col c-12">Viết nhận xét</h3>
+                                        <hr />
+                                        <p class="col c-12">
+                                            Nếu bạn có thắc mắc gì, có thể gửi yêu cầu cho chúng
+                                            tôi, và chúng tôi sẽ liên lạc lại với bạn sớm nhất có
+                                            thể .
+                                        </p>
+                                        <form action="" class="contact__form">
+                                            <div class="form__group c-12 col m-12">
+                                                <input type="text" placeholder="Tên của bạn" />
+                                            </div>
+                                            <div class="form__group c-12 col m-12">
+                                                <input type="text" placeholder="Email của bạn" />
+                                            </div>
+                                            <div class="form__group c-12 col m-12">
+                                                <textarea name="" id="" cols="30" rows="10"
+                                                    class="controller c-12 m-12"></textarea>
+                                            </div>
+                                            <input type="submit" class="col c-12" value="Gửi liên hệ" />
+                                        </form>
+                                    </div>
 
-                                <div class="home__contact__info">
-                                    <h3>Chúng tôi ở đây</h3>
-                                    <hr>
-                                    <h3 class="name__copany">Innovative Publishing and Media</h3>
-                                    <p>Công ty Cổ phần Xuất bản và Truyền thông IPM</p>
+                                    <div class="home__contact__info col l-4 m-12 c-12">
+                                        <h3>Chúng tôi ở đây</h3>
+                                        <hr />
+                                        <h3 class="name__copany">
+                                            Innovative Publishing and Media
+                                        </h3>
+                                        <p>Công ty Cổ phần Xuất bản và Truyền thông IPM</p>
 
-                                    <ul class="info__address">
-                                        <li>
-                                            <i class="fa-solid fa-location-dot"></i>
-                                            <span>Châu Thành Kiên Giang</span>
-                                        </li>
-                                        <li>
-                                            <i class="fa-regular fa-paper-plane"></i>
-                                            <span>tvantai0703@gmail.com</span>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-phone"></i>
-                                            <span>08 5269 8408</span>
-                                        </li>
-                                    </ul>
+                                        <ul class="info__address">
+                                            <li>
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <span>Châu Thành Kiên Giang</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa-regular fa-paper-plane"></i>
+                                                <span>tvantai0703@gmail.com</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa-solid fa-phone"></i>
+                                                <span>08 5269 8408</span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
 
-
         <!-- end body  -->
-
 
         <!-- footer -->
         <footer class="footer">
             <div class="container grid wide">
                 <div class="row">
-                    <div class="contact-footer col-custom col m-12 c-12 l-4">
-                        <div class="logo__footer  ">
+                    <div class="contact-footer col col-custom  m-12 c-12 l-4">
+                        <div class="logo__footer">
                             <a href="">
-                                <img src="./images/logo-footer.png" alt="">
+                                <img src="./images/logo-footer.png" alt="" />
                             </a>
                         </div>
-                        <p class="maker__first  ">
+                        <p class="maker__first">
                             <i class="fa-solid fa-location-dot"></i>
-                            <span> Số 110 Nguyễn Ngọc Nại, Khương Mai, Thanh Xuân, Hà Nội</span>
+                            <span>
+                                Số 110 Nguyễn Ngọc Nại, Khương Mai, Thanh Xuân, Hà Nội</span>
                         </p>
                         <p class=" ">
                             <i class="fa-solid fa-phone"></i>
@@ -285,50 +315,35 @@
                             <i class="fa-solid fa-envelope"></i>
                             Email: tvantai0703@gmail.com
                         </p>
-
                     </div>
-                    <div class="policy-footer col-custom col m-12 c-12 l-5">
+                    <div class="policy-footer col col-custom  m-12 c-12 l-5">
                         <div class="row">
-                            <div class="footer-block  col c-6 m-7 l-7">
+                            <div class="footer-block col c-6 m-7 l-7">
                                 <h4 class="footer-title">HỖ TRỢ KHÁCH HÀNG</h4>
                                 <ul>
                                     <li>
-                                        <a href="">
-                                            Điều khoản thường gặp
-                                        </a>
+                                        <a href=""> Điều khoản thường gặp </a>
                                     </li>
                                     <li>
-                                        <a href="">
-                                            Câu hỏi thường gặp
-                                        </a>
+                                        <a href=""> Câu hỏi thường gặp </a>
                                     </li>
-
                                 </ul>
                             </div>
-                            <div class="footer-block  col c-6 m-5 l-5">
+                            <div class="footer-block col c-6 m-5 l-5">
                                 <h4 class="footer-title">CHÍNH SÁCH</h4>
                                 <ul>
                                     <li>
-                                        <a href="">
-                                            Chính sách bảo mật
-                                        </a>
+                                        <a href=""> Chính sách bảo mật </a>
                                     </li>
                                     <li>
-                                        <a href="">
-                                            Chính sách thanh toán
-                                        </a>
+                                        <a href=""> Chính sách thanh toán </a>
                                     </li>
                                     <li>
-                                        <a href="">
-                                            Chính sách vận chuyển
-                                        </a>
+                                        <a href=""> Chính sách vận chuyển </a>
                                     </li>
                                     <li>
-                                        <a href="">
-                                            Chính sách đổi trả
-                                        </a>
+                                        <a href=""> Chính sách đổi trả </a>
                                     </li>
-
                                 </ul>
                             </div>
                         </div>
@@ -339,9 +354,8 @@
                                     <div>
                                         <p>
                                             <span>
-                                                Hãy nhập email của bạn vào ô dưới đây để có thể nhận được tất cả tin tức
-                                                mới
-                                                nhất của IPM
+                                                Hãy nhập email của bạn vào ô dưới đây để có thể nhận
+                                                được tất cả tin tức mới nhất của IPM
                                             </span>
                                         </p>
                                         <div class="footer-sub">
@@ -350,17 +364,15 @@
                                                     <div class="subcribe-input">
                                                         <form action="">
                                                             <input type="text" class="input-sub"
-                                                                placeholder="Nhập vào email của bạn!!!!!...">
-                                                            <div class="sub-submit">
-                                                                ĐĂNG KÝ
-                                                            </div>
+                                                                placeholder="Nhập vào email của bạn!!!!!..." />
+                                                            <div class="sub-submit">ĐĂNG KÝ</div>
                                                         </form>
                                                     </div>
                                                 </div>
-                                                <div class="col l-4  hide-on-mobile btc-imgages">
+                                                <div class="col l-4 hide-on-mobile btc-imgages">
                                                     <div class="btc-img">
                                                         <a href="">
-                                                            <img src="./images/bct_img.png" alt="">
+                                                            <img src="./images/bct_img.png" alt="" />
                                                         </a>
                                                     </div>
                                                 </div>
@@ -371,7 +383,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="link-footer col-custom col m-12 c-12 l-3">
+                    <div class="link-footer col col-custom  m-12 c-12 l-3">
                         <div class="footer-block">
                             <h4 class="footer-title">KẾT NỐI VỚI CHÚNG TÔI</h4>
                         </div>
@@ -380,19 +392,19 @@
                             <div class="last-content">
                                 <div class="icon-footer">
                                     <a href="">
-                                        <i class='bx bxl-facebook-square'></i>
+                                        <i class="bx bxl-facebook-square"></i>
                                     </a>
                                     <a href="">
-                                        <i class='bx bxl-twitter'></i>
+                                        <i class="bx bxl-twitter"></i>
                                     </a>
                                     <a href="">
-                                        <i class='bx bxl-youtube'></i>
+                                        <i class="bx bxl-youtube"></i>
                                     </a>
                                 </div>
                                 <div class="btc-imgages l-0 m-0">
                                     <div class="btc-img">
                                         <a href="">
-                                            <img src="./images/bct_img.png" alt="">
+                                            <img src="./images/bct_img.png" alt="" />
                                         </a>
                                     </div>
                                 </div>
@@ -404,5 +416,6 @@
         </footer>
         <!-- end footer -->
     </div>
-
 </body>
+
+</html>
